@@ -1,4 +1,5 @@
 # Space Invaders (using Python)
+![image](https://user-images.githubusercontent.com/99841502/209762911-6c413560-cda7-4ede-bf16-474dfe3a68d5.png)
 
 ## Description
 This is a simple version of the Space Invaders game programmed with Python using the [PyGame](https://www.pygame.org/docs/) library. The game can only run on the Windows OS.
