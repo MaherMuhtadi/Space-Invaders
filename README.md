@@ -18,7 +18,7 @@ PyGame is a set of Python modules that simplifies 2-D game development for begin
 Make sure you follow the steps and run the program on a Windows machine.
 
 ### Prerequisites
-1. Download and install [Python 3.10.9](https://www.python.org/downloads/). Avoid the latest version, as the [PyGame documentation](https://www.pygame.org/wiki/GettingStarted#:~:text=Pygame%20still%20does%20not%20run%20on%20Python%203.11%20as%20per%20the%20github%20page.) states that its library still does not run on Python 3.11.
+1. Download and install the latest version of [Python](https://www.python.org/downloads/) that is compatible with [PyGame](https://www.pygame.org/wiki/GettingStarted).
 2. Check if python is properly installed along with its package installer using the following commands in your terminal:
 ```
 $ python --version
