@@ -13,7 +13,7 @@ PyGame is a set of Python modules that simplifies 2-D game development for begin
 4. The player has the option to replay the game after it is over by pressing the <kbd>enter</kbd>.
 5. This game can track and display the player's current score and the highest score so far. The high score is updated in an external text file every time the game ends.
 6. The game follows a linear rise in difficulty as the player's score increases. For simplicity, this is done by the increasing speed of the game entities.
-7. To avoid spamming laser blasts, they can only be shot if there is no previous projectile on screen.
+7. To avoid spamming laser blasts, lasers can only be shot if there is no previous projectile on screen.
 
 ## Installation
 Make sure you follow the steps and run the program on a Windows machine.
