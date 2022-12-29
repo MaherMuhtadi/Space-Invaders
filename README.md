@@ -33,8 +33,8 @@ $ python -m pip --version
 ### Usage
 1. Download the repository as a ZIP or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository to your local device.
 2. On your terminal, change directory to the repository folder using the `cd` command.
-3. Run the main.py file using the command:
+3. Run the `main.py` file using the command:
 
     `python main.py`
-
+---
 Last Updated: December 28, 2022
