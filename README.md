@@ -1,6 +1,9 @@
 <div align="center">
+
 # Space Invaders
+
 ![image](https://user-images.githubusercontent.com/99841502/209762911-6c413560-cda7-4ede-bf16-474dfe3a68d5.png)
+
 </div>
 
 ## Description
