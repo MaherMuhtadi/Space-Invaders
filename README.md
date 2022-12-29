@@ -1,5 +1,7 @@
+<div align="center">
 # Space Invaders
 ![image](https://user-images.githubusercontent.com/99841502/209762911-6c413560-cda7-4ede-bf16-474dfe3a68d5.png)
+</div>
 
 ## Description
 This is a simple version of the Space Invaders game programmed with Python using the [PyGame](https://www.pygame.org/docs/) library. The game can only run on the Windows OS.
@@ -9,7 +11,7 @@ PyGame is a set of Python modules that simplifies 2-D game development for begin
 ### Features
 1. The player can move sideways on the screen using the <kbd><</kbd> and <kbd>></kbd> keys.
 2. Player can shoot lasers at enemies using the <kbd>space bar</kbd>.
-3. The game can also be paused using the <kbd>esc</kbd> key.
+3. The game can also be paused and resumed using the <kbd>esc</kbd> key.
 4. The player has the option to replay the game after it is over by pressing the <kbd>enter</kbd>.
 5. This game can track and display the player's current score and the highest score so far. The high score is updated in an external text file every time the game ends.
 6. The game follows a linear rise in difficulty as the player's score increases. For simplicity, this is done by the increasing speed of the game entities.
