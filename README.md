@@ -7,7 +7,7 @@
 </div>
 
 ## Description
-This is a simple version of the Space Invaders game programmed with Python using the [PyGame](https://www.pygame.org/docs/) library. The game can only run on the Windows OS.
+This is a simple version of the Space Invaders game programmed with Python using the [PyGame](https://www.pygame.org/docs/) library.
 
 PyGame is a set of Python modules that simplifies 2-D game development for beginners. I used this project as a means to explore the capabilities of this library and learn the basics of game development. As an experimental project, I did not attempt to modularise my code.
 
@@ -22,7 +22,6 @@ PyGame is a set of Python modules that simplifies 2-D game development for begin
 8. The game can track and display the player's current score and the highest score so far. The high score is updated in an external text file every time the game ends.
 
 ## Installation
-Make sure you follow the steps and run the program on a Windows machine.
 
 ### Prerequisites
 1. Download and install the latest version of [Python](https://www.python.org/downloads/) that is compatible with [PyGame](https://www.pygame.org/wiki/GettingStarted).
@@ -43,4 +42,4 @@ $ python -m pip --version
 
     `python main.py`
 ---
-Last Updated: December 29, 2022
+Last Updated: January 09, 2023
