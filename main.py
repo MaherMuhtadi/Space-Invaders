@@ -4,15 +4,15 @@ pygame.init()
 
 # Game window
 pygame.display.set_caption("Space Invaders")
-pygame.display.set_icon(pygame.image.load(r"images\icon.ico"))
+pygame.display.set_icon(pygame.image.load(r"images/icon.ico"))
 width, height = 850, 650
 screen = pygame.display.set_mode((width, height))
-background_png = pygame.image.load(r"images\background.png")
+background_png = pygame.image.load(r"images/background.png")
 font = pygame.font.Font(r"font.ttf", 20)
 gameover_font = pygame.font.Font(r"font.ttf", 64)
 
 # Creating the player
-player_png = pygame.image.load(r"images\player.png")
+player_png = pygame.image.load(r"images/player.png")
 player_positionX = (width/2)-32
 player_positionY = 562
 def player(x : int, y : int):
@@ -20,7 +20,7 @@ def player(x : int, y : int):
     screen.blit(player_png, (x, y))
 
 # Creating the laser shot
-laser_png = pygame.image.load(r"images\laser.png")
+laser_png = pygame.image.load(r"images/laser.png")
 laser_positionY = player_positionY-32+2  # Using +2 so that laser shoots right out of the canon
 fired = False
 def laser(x : int, y : int):
@@ -28,7 +28,7 @@ def laser(x : int, y : int):
     screen.blit(laser_png, (x, y))
 
 # Creating the enemies
-enemy_png = pygame.image.load(r"images\enemy.png")
+enemy_png = pygame.image.load(r"images/enemy.png")
 enemy_positionX = []
 enemy_positionY = []
 enemyX_change = []
@@ -64,11 +64,11 @@ def progress():
     screen.blit(font.render("High Score: " + str(high_score), True, text_color), (644, 9))
 
 # Audio
-pygame.mixer.music.load(r"audio\music.mp3")
+pygame.mixer.music.load(r"audio/music.mp3")
 pygame.mixer.music.play(-1)
-laser_mp3 = pygame.mixer.Sound(r"audio\laser.mp3")
-hit_mp3 = pygame.mixer.Sound(r"audio\hit.mp3")
-death_mp3 = pygame.mixer.Sound(r"audio\death.mp3")
+laser_mp3 = pygame.mixer.Sound(r"audio/laser.mp3")
+hit_mp3 = pygame.mixer.Sound(r"audio/hit.mp3")
+death_mp3 = pygame.mixer.Sound(r"audio/death.mp3")
 
 # Game loop
 running = True
